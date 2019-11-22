@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+   <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>  -->
+<!DOCTYPE html>
+<html lang="en"> 
+
+<!--  TRIBUTE STARTS HERE  -->
+<head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Tribute Page For Yves Klein">
+
+  <!-- Google Font Import -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css_files/style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Icon Import - Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style3.css"> 
+  <title>Sky full of stars</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<meta http-equiv="refresh" content="">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+        </head>
+<body>
+      
+         
+    <nav class="navbar navbar-inverse" >
+      <div class="container-fluid bg">
+        <div class="navbar-header bk">
+        
+        </div>
+        <ul class="nav navbar-nav" style="margin-left: 10px;">
+          <li ><a href="index.html">Home</a></li>
+          <li><a href="m81.html">M81 & M82</a></li>
+          <li><a href="antennae.html">Antennae Galaxies</a></li>
+          <li><a href="galactic.html">Galactic Center</a></li>
+            <li><a href="baby.html">Baby Star Jet</a></li>
+            <li><a href="helix.html">Helix Nebula</a></li>
+            <li><a href="super.html">supernova</a></li>
+            <li class="active"><a href="conatct.html">Contact us</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+
+        
+  <br><br>     
+<fieldset Style="margin-left:5%;margin-right:5%">
+    <br>
+    <legend><h2 style="color: brown">Personal information:</h2></legend>
+<form action="">
+  <label>First Name</label>
+  <input class="w3-input w3-border" type="text" name="firstname" id="fname" value="" required>
+  <br>
+  <label>Last Name</label>
+  <input class="w3-input w3-border" type="text" id="lname" name="lastname" value="" required>
+  <br>
+<h3>the Age:</h3>
+<select name="AGE" class="w3-input w3-border" required>
+  <option value="10-18">10-18</option>
+  <option value="19-30">19-30</option>
+  <option value="31-40">31-40</option>
+  <option value="40-...">40-...</option>
+ </select>
+ <h3> gender:</h3>
+<input  type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+<h3> state:</h3>
+   
+    <input type="radio" name="state" value="student" checked> student<br>
+    <input type="radio" name="state" value="employee"> employee<br>
+    <input type="radio" name="state" value="retired"> retired<br>
+    <input type="radio" name="state" value="other"> Other
+    
+   <input type="submit" onClick="confirm()"  class="w3-button w3-block w3-padding-large w3-green w3-margin-bottom" >
+    </form>
+</fieldset>
+<br>
+<fieldset Style="margin-left:5%;margin-right:5%">
+    <legend><h2 style="color: brown">Opinion information:</h2></legend>
+    <h3> What is the most subject you like?</h3>
+     <form>
+         <input type="checkbox" name="vehicle1" value="M81 & M82"> M81 & M82<br>
+        <input type="checkbox" name="vehicle2" value="antennae Galaxies">antennae Galaxies<br>
+        <input type="checkbox" name="vehicle3" value="Galactic Center">Galactic Center<br>
+        <input type="checkbox" name="vehicle4" value="supernova"> supernova<br>
+        <input type="checkbox" name="vehicle5" value="Baby Star Jet"> Baby Star Jet<br>
+        <input type="checkbox" name="vehicle6" value="Helix Nebula">Helix Nebula<br>
+     </form>
+     <form action="">
+         <h3> Commants:</h3>
+        <textarea id="msg" name="subject" placeholder="Write something.." style="height:200px;width: 100%;"></textarea>
+        <br><br>
+        <input type="submit" value="submit" onClick="confirm2()" class="w3-button w3-block w3-padding-large w3-green w3-margin-bottom">
+         </form>
+</fieldset>
+    <br><br><br><br><br>
+    <div class="fotr" >
+        Made by Amal,Lujain,Sarah,Ghaida.
+        </div>
+    
+</body>
+</html>
+        
+         
+   
+<script>
+
+function confirm(){
+    var fname = document.getElementById("fname").value;
+    var lname = document.getElementById("lname").value;
+      if (fname == "" || lname == "" ) {
+    alert("Name must be filled out");
+    return false;
+  }else{
+    alert("data Recorded successfuly \n"+ "your name is: "+ fname +" "+lname);  
+  }
+    
+    
+}
+    function confirm2(){
+    var msg = document.getElementById("msg").value;
+    confirm("data Recorded successfuly \n"+ "your message is:\n "+ msg );
+}
+    
+</script>
+   
