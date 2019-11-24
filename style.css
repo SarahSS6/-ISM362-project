@@ -26,7 +26,7 @@ COLOURS:
   --hover-fontsize-sm: 11px;
 }
 
-#tribute-info {
+#tribute-in {
   display: none;
 }
 
@@ -365,7 +365,7 @@ background-size: cover;
   bottom: 0;
   width: 100%;
   height: 8rem;
-  background-color: #002fa7;
+  background-color: #a4beff;
   padding: 40px 30px;
 }
 
